@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\r\n\ This\ class\ contains\ the\ variables\ for\ the\ account\ number,\ pin\ password\ and\ balance\r\n\ @author\ Caroline\ Barra\ \ University\ of\ Brighton\r\n\ \r\n
+comment1.params=
+comment1.target=BankAccount()
+comment2.params=accNumber\ pinPsswd\ balance
+comment2.target=BankAccount(int,\ int,\ double)
+comment3.params=amount
+comment3.target=boolean\ withdraw(double)
+comment4.params=amount
+comment4.target=boolean\ deposit(double)
+comment5.params=
+comment5.target=double\ getBalance()
+comment6.params=newPin
+comment6.target=boolean\ getNewPin(int)
+numComments=7

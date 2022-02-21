@@ -1,0 +1,56 @@
+#Layout {
+    -fx-grid-lines-visible: false;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-padding: 10;
+    -fx-background-color:"#34404a";
+    -fx-text-fill: "#191d22";
+}
+
+#Buttons {
+    -fx-pref-columns: 6;    
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+.button {
+        -fx-pref-tile-height: 40;
+        -fx-pref-tile-width: 200;
+            -fx-background-color:
+                #090a0c,
+                linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+                linear-gradient(#20262b, #191d22),
+                radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+            -fx-background-radius: 5,4,3,5;
+            -fx-background-insets: 0,1,2,0;
+            -fx-text-fill: white;
+            -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+            -fx-font-family: "Arial";
+            -fx-text-fill: linear-gradient(white, #d0d0d0);
+            -fx-font-size: 12px;
+            -fx-padding: 10 20 10 20;
+       }
+
+
+#enter-button{
+                 -fx-background-color:
+                     #090a0c,
+                     linear-gradient(#20262b 0%, #1f2429 20%, #2ec872 100%),
+                     linear-gradient(#20262b, #191d22),
+                     radial-gradient(center 50% 0%, radius 100%, rgba(46, 200, 114, 1), rgba(255,255,255,0));
+}
+
+#clear-button{
+             -fx-background-color:
+                #090a0c,
+                 linear-gradient(#20262b 0%, #1f2429 20%, #e67e22 100%),
+                 linear-gradient(#20262b, #191d22),
+                 radial-gradient(center 50% 0%, radius 100%, rgba(230, 126, 34, 1), rgba(255,255,255,0));
+}
+#cancel-button{
+             -fx-background-color:
+                #090a0c,
+                 linear-gradient(#20262b 0%, #1f2429 20%, #e74c3c 100%),
+                 linear-gradient(#20262b, #191d22),
+                 radial-gradient(center 50% 0%, radius 100%, rgba(231,76,60,1), rgba(255,255,255,0));
+}
